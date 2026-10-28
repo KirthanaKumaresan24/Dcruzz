@@ -1,0 +1,94 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #f39c12;
+}
+
+/* Hero Section */
+.about-hero {
+    background: url('https://i.pinimg.com/736x/74/c4/2f/74c42f12c012fc8b410aaec2cdcd82a7.jpg') no-repeat center center/cover;
+    color: black;
+    text-align: center;
+    padding: 5rem 1rem;
+}
+
+.about-hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;3
+}
+
+.about-hero p {
+    font-size: 1.5rem;
+}
+
+/* About Content Section */
+.about-content {
+    padding: 2rem 1rem;
+    background-color: https://i.pinimg.com/736x/74/c4/2f/74c42f12c012fc8b410aaec2cdcd82a7.jpg ;
+}
+
+.about-content .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #2c3e50;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #555;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}

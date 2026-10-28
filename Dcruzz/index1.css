@@ -1,0 +1,157 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+header .logo {
+    display: flex; /* Aligns the image and text horizontally */
+    align-items: center; /* Vertically aligns the text with the image */
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    padding-left: 20px; /* Adjust spacing if needed */
+}
+
+header .logo img {
+    width: 40px; /* Adjust size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between the logo and text */
+    display: block;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+header nav a:hover {
+    color: #f39c12;
+}
+/* Hero Section */
+.hero {
+     background: url('https://i.pinimg.com/736x/74/c4/2f/74c42f12c012fc8b410aaec2cdcd82a7.jpg') no-repeat center center/cover;
+
+    text-align: center;
+    background-color: #f9f9f9;
+    padding: 2rem 1rem;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+}
+
+.hero .btn {
+    background-color: #f39c12;
+    color: white;
+    padding: 0.8rem 2rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero .btn:hover {
+    background-color: #e67e22;
+}
+
+/* About Section */
+.about {
+    text-align: center;
+    padding: 2rem 1rem;
+    background-color: #f4f4f4;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    font-size: 1.2rem;
+}
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+.products h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.product {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+.product p {
+    font-size: 1.1rem;
+    color: #2c3e50;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2c3e50;
+    color: white;
+    padding: 1rem 0;
+}
